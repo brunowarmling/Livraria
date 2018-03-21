@@ -17,8 +17,8 @@
 ### How to install
 
 1. Run the archive "DbScript.sql"
-2. Change the MySql ConnectionString on:
-	Class ```Livraria.Model.SessionFactories.MySQLSessionFactory```
-	Property:  ```ConnectionString```
+2. Change the MySql ConnectionString on 
+	> Class ```Livraria.Model.SessionFactories.MySQLSessionFactory```
+	> Property:  ```ConnectionString```
 
 *For more info, open readme.txt*
