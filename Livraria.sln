@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Controller.Test", "Livraria.Controller.Test\Livraria.Controller.Test.csproj", "{6335514A-E287-4A1D-B12E-082CB92BD31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Controller", "Livraria.Controller\Livraria.Controller.csproj", "{1A79AE96-D085-4E4E-B330-4E6BDE40247E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Model", "Livraria.Model\Livraria.Model.csproj", "{C7233C4D-8CDD-4F95-8405-CE7D2D11AB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Web", "Livraria.Web\Livraria.Web.csproj", "{2F313467-D98A-4551-8835-1481C71679A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{C04FF032-96FF-420F-8A78-924979313D38}"
+	ProjectSection(SolutionItems) = preProject
+		DbScript.sql = DbScript.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B84EEFEA-789A-450C-AB15-B9264C8EB595}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6335514A-E287-4A1D-B12E-082CB92BD31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6335514A-E287-4A1D-B12E-082CB92BD31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6335514A-E287-4A1D-B12E-082CB92BD31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6335514A-E287-4A1D-B12E-082CB92BD31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A79AE96-D085-4E4E-B330-4E6BDE40247E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A79AE96-D085-4E4E-B330-4E6BDE40247E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A79AE96-D085-4E4E-B330-4E6BDE40247E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A79AE96-D085-4E4E-B330-4E6BDE40247E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7233C4D-8CDD-4F95-8405-CE7D2D11AB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7233C4D-8CDD-4F95-8405-CE7D2D11AB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7233C4D-8CDD-4F95-8405-CE7D2D11AB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7233C4D-8CDD-4F95-8405-CE7D2D11AB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F313467-D98A-4551-8835-1481C71679A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F313467-D98A-4551-8835-1481C71679A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F313467-D98A-4551-8835-1481C71679A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F313467-D98A-4551-8835-1481C71679A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23FAD6CA-BC1D-458C-8E0E-F646C9182CC9}
+	EndGlobalSection
+EndGlobal

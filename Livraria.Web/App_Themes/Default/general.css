@@ -1,0 +1,308 @@
+span.label{
+	width: 100px;
+	display: inline-block;
+	margin-bottom: 8px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom:1px solid rgb(188, 195, 192);;
+}
+
+.notif-message
+{
+	bottom: 25px;
+    cursor: default !important;
+    display: inline-block;
+    height: 0;
+    left: 19px;
+    position: fixed;
+    right: 19px;
+    z-index: 1400 !important;
+}
+.message-text
+{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  vertical-align: top;
+  display: inline-block;
+}
+.message-container .ui-icon{
+	margin-left: 10px;
+}
+
+.ui-state-active{
+	cursor:default !important;
+}
+
+.buttons {
+    left: 20px;
+    right: 20px;
+    bottom: 5px;
+    border-top: 1px solid #A9A9A9;
+    padding-top: 6px;
+    padding-right: 9px;
+    text-align: right;
+}
+
+.top-menu
+{
+    z-index: -1;
+}
+.contextMenu
+{
+    z-index: 1200;
+}
+.notif-message
+{
+    z-index: 1400 !important;
+}
+
+.header {
+    background-color: white;
+    border:  1px solid #29631D;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px gray;
+    height: 50px;
+    margin: 10px;
+}
+
+.header  div{
+	display: inline-block;
+}
+.header .Logo {
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+.header .Menu {
+    height: 50px;
+    position: relative;
+    vertical-align: top;
+}
+
+.Menu div:first-child 
+{
+	border-left: none !important;
+}
+.Menu div {
+    border-left: 1px solid #247e1b;
+    margin-top: 33px;
+    padding-left: 9px;
+    padding-right: 4px;
+    text-align: center;
+    vertical-align: middle;
+	cursor:pointer;
+}
+
+.Menu div:hover 
+{
+	text-shadow: 3px 3px 3px gray;
+}
+
+.header  .User
+{
+    float: right;
+    padding-right: 4px;
+    padding-top: 2px;
+    text-align: right;
+    width: 30%;
+}
+
+.container
+{
+	background-color: white;
+    border-color: gray;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    box-shadow: 4px 4px 4px gray;
+    margin-top: 0 !important;
+    padding-top: 0 !important;	
+	border-radius: 6px;
+    color: White;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pageName {
+    bottom: 2px;
+    position: fixed;
+    right: 20px;
+    color: #060606;
+    text-shadow: 1px 1px 5px #FFF;
+}
+
+body{		
+	background-image: url("images/fundo.png");
+ 	font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;
+	font-size: 11px;
+	font-weight:700;
+}
+
+a, a:visited
+{
+    outline: none;
+    color:black;
+    
+}
+
+.findButton
+{
+	border: 1px solid #aed0ea !important;
+	background: #dadada url("images/azul.png") 50% 50% repeat-x !important;
+	color: black !important;
+}
+.cancelButton{
+	background: #dadada url("images/laranja.png") 50% 50% repeat-x !important;
+	border: 1px solid #d19405 !important;
+    color: black !important;
+}
+.deleteButton{
+	background: #dadada url("images/vermelho.png") 50% 50% repeat-x !important;
+	border: 1px solid #47050d !important;
+    color: black !important;
+}
+
+.saveButton{
+	background: #dadada url("images/verde.png") 50% 50% repeat-x !important;
+	color: black !important;
+}
+
+.buttonHolder:hover input,.lovButtonHolder:hover input {
+	background: white !important;
+	color:black !important;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.grid {
+    background: url("images/ui-bg_highlight-hard_100_f2f7f4_1x100.png") repeat-x scroll 50% top #f2f7f4;
+    color: #362b36;
+    width: 100%;
+	line-height:14.3px;
+	cursor:default;
+}
+.grid th
+{
+	border-left:1px solid white;
+}
+.grid th:first-child
+{
+	border-left:none !important;
+}
+
+.grid > tbody > tr:hover{
+      background-color: #d2d7d4;
+    color: black;
+}
+.grid thead {
+    line-height: 1.9em;
+}
+.grid td {
+    border: 1px solid #d2d7d4;
+}
+
+.grid tbody tr td:last-child
+{
+	cursor:pointer;
+}
+.grid tbody tr td:last-child span {
+    margin-left: 17px;
+    position: relative;
+}
+.dialog-message{
+	display:inline-block;
+	vertical-align: top;
+	padding-left:3px;
+}
+
+.inlineBlock{
+	display:inline-block !important;
+}
+
+.dialog-message-container{
+	padding-top:10px;
+}
+
+
+.buttonHolder,.lovButtonHolder{
+	position: relative;
+	background: none !important;
+	border: none !important;
+	cursor: pointer !important;
+}
+.lovButtonHolder{
+	vertical-align: top;	
+}
+
+.buttonHolder .ui-button 
+{
+    padding-left: 20px !important
+}
+.buttonHolder span{
+
+	top: 0px;
+	left: 3px;
+	position: absolute;
+}
+
+.lovButtonHolder span{
+
+	top: 0px;
+	left: 5px;
+	position: absolute;
+}
+
+.saveButton, .findButton, .cancelButton, .deleteButton
+{
+	text-align: right;
+	width: 75px;
+}
+.cancelButton,.deleteButton{
+	width: 85px;
+}
+input:focus 
+{
+    box-shadow: 0px 0px 5px 1px lightgray !important;
+}
+
+.divHolder{
+	overflow: auto;	
+}
+.lovHolder{
+	display: inline-block;
+}
+
+input[data-type="number"]{
+ text-align: right !important;	
+	
+}
+
+input[readonly="readonly"],input[disabled="disabled"]{
+	background-color: rgba(128, 128, 128, 0.14);
+	
+}
+
+.systemName{
+  left: -3px;
+  display: inline-block;
+  top: 7px;
+  position: absolute;
+  font-size: 17px;
+  color: rgb(29, 90, 37);	
+}
+
+.lovButton{
+    width: 25px !important;
+    height: 20px;
+}
+
+.emptyLovButton{
+	width: 26px;
+	height: 1px;
+	display: inline-block;
+}
