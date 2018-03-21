@@ -21,4 +21,8 @@
 	> Class ```Livraria.Model.SessionFactories.MySQLSessionFactory```
 	> Property:  ```ConnectionString```
 
+### Tests
+
+1. Run the tests over a clean database
+
 *For more info, open readme.txt*
